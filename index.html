@@ -28,12 +28,9 @@ h1{
             padding-right: 50px;
 
         }
-        input{
-            margin: auto;
-            padding: 2px;
-            
-            
-            
+        div.submit{
+            padding-left: 75px;
+        
         }
         p{
             padding-right: 20px;
@@ -46,6 +43,32 @@ h1{
             margin-top: 50px;
             margin-bottom: 50px;
         }
+        fieldset{
+            width: 100PX;
+        }
+        legend{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 5px 5px 5px 5px  white;
+        }
+        input.touched:active{
+            background-color: green;
+            
+        }
+        a{
+            background-color:rgb(230, 225, 225);
+            color:black;
+            
+            border-width: 1px;
+            border-style: outset;
+            padding: 4px;
+            box-shadow: inset 0 0 10px #777777;}            
+        
+        }
+        
+        
 
     </style>
     <meta charset="UTF-8">
@@ -53,14 +76,17 @@ h1{
     <title>Document</title>
 </head>
 <body>
-    <h1>Login Page </h1> 
-   
+    <fieldset>
+   <legend class="h1"> LOGIN PAGE</legend>
     <form action="">
         
         <p class="name">NAME <input type="text"></p>
         <div class="div">
         <p>PASSWORD <input type="password" name="" id=""></p> </div>
-       <input type="submit" name="color" id="">
+      <div  class="submit"> <a href="thanks.html">submit</a> </div>
+
+      
     </form>
+    </fieldset>
 </body>
 </html>
