@@ -15,6 +15,8 @@ h1{
             margin-left: 50px;
             margin-right: 50px;
             margin-top: 20px;
+            
+            
         }
         p{
          
@@ -66,6 +68,20 @@ h1{
             box-shadow: inset 0 0 10px #777777;}            
         
         }
+     .password:focus{
+         background-color:rgb(245, 235, 216);
+         
+     }
+
+     .name:focus{
+         background-color: rgb(248, 241, 229);
+
+
+         
+     }
+     fieldset{
+        background-image: linear-gradient(red, yellow);
+     }
   
             
     
@@ -81,11 +97,11 @@ h1{
    <legend class="h1"> LOGIN PAGE</legend>
     <form action="thanks.html">
         
-        <p class="name">NAME: <input type="text" required="required" ></p>
+        <p class="name">NAME: <input class="name" type="text" required="required" ></p>
         <div class="div">
-        <p>PASSWORD: <input type="password" name="" required="required"></p> </div>
+        <p>PASSWORD: <input class="passsword" type="password" name="" required="required"></p> </div>
       
-        <button s>submit</button>
+        <button >submit</button>
 
     </form>
     </fieldset>
